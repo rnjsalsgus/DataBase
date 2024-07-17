@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AA81AEB9-4125-BD37-4860-CEDCCC14B810" name="track_list">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 05:57:03 UTC</createdTime>
+<ownerDesignName>physical modeling</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="track_title" id="8B9927D2-AA2A-E05C-DE38-CDEE75AD2357">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 05:57:21 UTC</createdTime>
+<ownerDesignName>physical modeling</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7D2C28D2-48BE-CB22-DDC2-81FA4BF6836C" referredColumn="46801660-B09C-568B-6262-D704E75F45EC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A2F0B642-366B-C78D-A166-BAA3C66CA42B" name="track_list_PK">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 05:57:39 UTC</createdTime>
+<ownerDesignName>physical modeling</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8B9927D2-AA2A-E05C-DE38-CDEE75AD2357"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D054DE9D-9AA1-6E5B-1C1F-5FD76DB65349" name="track_list_track_FK">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 05:57:21 UTC</createdTime>
+<ownerDesignName>physical modeling</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8B9927D2-AA2A-E05C-DE38-CDEE75AD2357"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

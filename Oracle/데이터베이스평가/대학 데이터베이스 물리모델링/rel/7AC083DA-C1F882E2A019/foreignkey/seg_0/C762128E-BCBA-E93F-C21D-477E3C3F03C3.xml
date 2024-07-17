@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C762128E-BCBA-E93F-C21D-477E3C3F03C3" containerWithKeyObject="330AF67D-0825-F7F0-7FB1-D67B70A5B5B3" localFKIndex="C8EAFFB5-C8FD-E8A6-0702-FDE980B76DDD" name="class_professor_FK">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-05-02 00:40:34 UTC</createdTime>
+<ownerDesignName>대학 데이터베이스 물리모델링</ownerDesignName>
+<referredTableLongName>professor</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>42F6912B-1165-27BB-7E8B-8F46FA03DC6D</referredTableID>
+<keyObject>FFA44998-15B9-9E7F-4925-C4543F31F764</keyObject>
+<referredKeyID>FFA44998-15B9-9E7F-4925-C4543F31F764</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>pro_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

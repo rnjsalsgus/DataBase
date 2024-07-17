@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="638E6E3A-79EC-64BF-F8C0-7BE19393F0B5" name="property">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-29 03:19:18 UTC</createdTime>
+<ownerDesignName>modeling</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="pid" id="E38576F2-5ED1-EFFC-2ACE-61FBCF06C579">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-29 03:22:01 UTC</createdTime>
+<ownerDesignName>modeling</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="addt" id="963926C5-DD02-DD39-A1DB-3567218CF9BC">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-29 03:19:57 UTC</createdTime>
+<ownerDesignName>modeling</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300</dataTypeSize>
+<ownDataTypeParameters>300,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pub_price" id="EC8321EE-437B-A363-001A-E0E1320FA866">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-29 03:22:01 UTC</createdTime>
+<ownerDesignName>modeling</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6C7F63F7-8534-9F2E-9E9E-E5B7DB862A43" name="TABLE_1_PK">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-29 03:23:00 UTC</createdTime>
+<ownerDesignName>modeling</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E38576F2-5ED1-EFFC-2ACE-61FBCF06C579"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

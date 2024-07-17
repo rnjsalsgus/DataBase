@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F53A03BF-E850-29C3-5DCD-B52711D11782" containerWithKeyObject="BAB7C46B-FEFF-3184-029C-E74642C84FD7" localFKIndex="FE163216-5137-26D1-0693-51A7E1D21B20" name="artist_cd_FK">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 05:56:13 UTC</createdTime>
+<ownerDesignName>physical modeling</ownerDesignName>
+<referredTableLongName>cd</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>8E63B500-72DE-1705-D909-63D4DBB4C51A</referredTableID>
+<keyObject>40041A56-A438-BF55-0C48-182F99CB11EC</keyObject>
+<referredKeyID>40041A56-A438-BF55-0C48-182F99CB11EC</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>title</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

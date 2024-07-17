@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B44AF9B0-AE83-4BF1-9E0B-A1E657AECA8A" name="newpublisher">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 03:19:10 UTC</createdTime>
+<ownerDesignName>physical modeling</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="pubname" id="0812655A-B04A-ACE4-2042-172CC74A9DCB">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 03:20:36 UTC</createdTime>
+<ownerDesignName>physical modeling</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="stname" id="7AF980AE-5E90-7F99-9A8F-E531BB5C985A">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 03:20:36 UTC</createdTime>
+<ownerDesignName>physical modeling</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="officephone" id="827E7FB4-69B1-73B9-997D-C88B90B496B8">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 03:20:36 UTC</createdTime>
+<ownerDesignName>physical modeling</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4DC115D2-BEAA-A457-5BF0-0E948CD3A975" name="publisher_PK">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 03:20:36 UTC</createdTime>
+<ownerDesignName>physical modeling</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0812655A-B04A-ACE4-2042-172CC74A9DCB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

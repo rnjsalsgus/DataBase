@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="31591BD0-2F04-AEEB-B8F3-8B34540BB119" name="TABLE_4">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-29 05:34:30 UTC</createdTime>
+<ownerDesignName>modeling</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="voyagelID" id="409F7CC1-D3A2-D5BB-1CFA-992C6D129C6B">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-29 05:36:09 UTC</createdTime>
+<ownerDesignName>modeling</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cargo" id="90DE480B-74A4-7782-144A-D043DE71505E">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-29 05:36:24 UTC</createdTime>
+<ownerDesignName>modeling</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6C68147E-5093-6C3C-5E40-7606F23C1E7A" name="TABLE_4_PK">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-29 05:36:44 UTC</createdTime>
+<ownerDesignName>modeling</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="409F7CC1-D3A2-D5BB-1CFA-992C6D129C6B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

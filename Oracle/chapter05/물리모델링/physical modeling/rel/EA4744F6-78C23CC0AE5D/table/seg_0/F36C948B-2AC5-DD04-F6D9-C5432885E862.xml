@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F36C948B-2AC5-DD04-F6D9-C5432885E862" name="reservation">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 05:41:35 UTC</createdTime>
+<ownerDesignName>physical modeling</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="person_no" id="5C62440A-D773-01AD-9457-101AE0CEACC5">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 05:43:03 UTC</createdTime>
+<ownerDesignName>physical modeling</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="res_date" id="12037AF9-A946-98FD-2720-38F2C7244817">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 05:43:03 UTC</createdTime>
+<ownerDesignName>physical modeling</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="start_date" id="BE5DD43A-C317-8BBC-BCA4-184E2329BC85">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 05:43:03 UTC</createdTime>
+<ownerDesignName>physical modeling</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="arr_date" id="FE11DA82-2B78-44C1-B5C9-AC08CC7CC8CA">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 05:43:03 UTC</createdTime>
+<ownerDesignName>physical modeling</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hotel_name" id="6DC50D57-4BCD-352D-0A64-8B524012363B">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 05:48:08 UTC</createdTime>
+<ownerDesignName>physical modeling</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7639BD4D-7DDC-ADAF-9EF8-0B04375F3294" referredColumn="A3651D3F-57A5-FDCA-9E3B-8D39A9D67CF8"/>
+</associations>
+</Column>
+<Column name="customer_name" id="E6556BAF-129F-FC86-1773-795B9FA763A5">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 05:48:16 UTC</createdTime>
+<ownerDesignName>physical modeling</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C9AB765C-61EC-373C-3E69-58F02EB61149" referredColumn="37151E1E-B060-A456-4326-9C7CE50F9455"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6E88BB02-85CE-ADA2-008A-4EA56B9A1D92" name="reservation_PK">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 05:43:03 UTC</createdTime>
+<ownerDesignName>physical modeling</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="12037AF9-A946-98FD-2720-38F2C7244817"/>
+<colUsage columnID="BE5DD43A-C317-8BBC-BCA4-184E2329BC85"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3AE3A306-27A5-163B-8485-8B730F664EC9" name="reservation_hotel_FK">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 05:48:08 UTC</createdTime>
+<ownerDesignName>physical modeling</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6DC50D57-4BCD-352D-0A64-8B524012363B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="455D1D15-F34C-E22B-261F-78D0E07DC9A2" name="reservation_customer_FK">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 05:48:16 UTC</createdTime>
+<ownerDesignName>physical modeling</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E6556BAF-129F-FC86-1773-795B9FA763A5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

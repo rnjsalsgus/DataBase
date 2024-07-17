@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AD6D9C8B-548F-1065-715C-128365DA21F9" name="출판사">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 02:21:53 UTC</createdTime>
+<ownerDesignName>physical modeling</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="출판사이름" id="C5FE3AA8-5EB8-DA10-3968-C503567A30A6">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 02:23:38 UTC</createdTime>
+<ownerDesignName>physical modeling</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="담당자이름" id="F4AEB0F2-BC4F-5EAF-3363-52869F15EE63">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 02:25:57 UTC</createdTime>
+<ownerDesignName>physical modeling</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="전화번호" id="E07887BE-174A-3ACD-312C-8C3D6618903B">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 02:26:09 UTC</createdTime>
+<ownerDesignName>physical modeling</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E9FB147C-632F-2D02-59C2-B520D5181CEE" name="출판사_PK">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 02:23:38 UTC</createdTime>
+<ownerDesignName>physical modeling</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C5FE3AA8-5EB8-DA10-3968-C503567A30A6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

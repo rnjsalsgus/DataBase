@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="330AF67D-0825-F7F0-7FB1-D67B70A5B5B3" name="class">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-05-02 00:39:07 UTC</createdTime>
+<ownerDesignName>대학 데이터베이스 물리모델링</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="class_id" id="1B43757B-F765-5E83-F4A5-F97E436AF52C">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-05-02 00:39:38 UTC</createdTime>
+<ownerDesignName>대학 데이터베이스 물리모델링</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="class_name" id="2A0E42E2-D1B2-65F9-2768-FB84490FA573">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-05-02 00:39:38 UTC</createdTime>
+<ownerDesignName>대학 데이터베이스 물리모델링</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="professor_pro_id" id="77CA300B-C21F-3C69-6FD4-2AFDB639D242">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-05-02 00:40:34 UTC</createdTime>
+<ownerDesignName>대학 데이터베이스 물리모델링</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C762128E-BCBA-E93F-C21D-477E3C3F03C3" referredColumn="9CD9BF87-AA3C-8F8A-0416-486938D7E7D2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D9A6920D-EF27-5829-C095-ABA7485174E7" name="class_PK">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-05-02 00:43:40 UTC</createdTime>
+<ownerDesignName>대학 데이터베이스 물리모델링</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1B43757B-F765-5E83-F4A5-F97E436AF52C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C8EAFFB5-C8FD-E8A6-0702-FDE980B76DDD" name="class_professor_FK">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-05-02 00:40:34 UTC</createdTime>
+<ownerDesignName>대학 데이터베이스 물리모델링</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="77CA300B-C21F-3C69-6FD4-2AFDB639D242"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

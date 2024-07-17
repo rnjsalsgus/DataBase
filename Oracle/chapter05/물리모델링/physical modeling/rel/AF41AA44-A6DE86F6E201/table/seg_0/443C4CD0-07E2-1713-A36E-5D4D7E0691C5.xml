@@ -1,0 +1,68 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="443C4CD0-07E2-1713-A36E-5D4D7E0691C5" name="company">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 05:28:43 UTC</createdTime>
+<ownerDesignName>physical modeling</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="55420AED-27FD-9ED5-AD38-CD11675ACAAF">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 05:29:26 UTC</createdTime>
+<ownerDesignName>physical modeling</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="9BDDBCBB-CEC5-1F92-9B10-F1EE049DABE6">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 05:29:26 UTC</createdTime>
+<ownerDesignName>physical modeling</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="city" id="35EC3726-4918-D921-416E-AAE132FCB88C">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 05:29:26 UTC</createdTime>
+<ownerDesignName>physical modeling</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nation" id="420C4FC9-756E-B564-70C1-87E67D4A6D38">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 05:29:26 UTC</createdTime>
+<ownerDesignName>physical modeling</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1397793A-FB53-1FC1-B2ED-8D7330BE1363" name="company_PK">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 05:29:26 UTC</createdTime>
+<ownerDesignName>physical modeling</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="55420AED-27FD-9ED5-AD38-CD11675ACAAF"/>
+<colUsage columnID="9BDDBCBB-CEC5-1F92-9B10-F1EE049DABE6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

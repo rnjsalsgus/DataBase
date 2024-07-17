@@ -1,0 +1,56 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CBD3FB23-96A8-E3AD-14A4-DC6C8A75224E" name="TABLE_4">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-29 05:57:05 UTC</createdTime>
+<ownerDesignName>modeling</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="partnumber" id="6664ABC4-6F98-D878-AE49-5A87895191E4">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-29 05:57:36 UTC</createdTime>
+<ownerDesignName>modeling</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="description" id="B8395915-A3C7-34C8-F2B1-E491DBB28D58">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-29 05:57:36 UTC</createdTime>
+<ownerDesignName>modeling</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="price" id="B2560531-95DE-9CB0-0305-2EC7AE0D9AF5">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-29 05:57:36 UTC</createdTime>
+<ownerDesignName>modeling</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="34346E3D-FCA8-2ACA-1B66-84BEE59AFB52" name="TABLE_4_PK">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-29 05:58:03 UTC</createdTime>
+<ownerDesignName>modeling</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6664ABC4-6F98-D878-AE49-5A87895191E4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

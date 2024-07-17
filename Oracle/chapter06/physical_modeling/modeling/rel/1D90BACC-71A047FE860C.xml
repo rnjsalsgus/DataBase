@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="배송 데이터베이스" id="1D90BACC-A0C0-C300-10C6-71A047FE860C" mainViewID="3EDC7E4B-0C66-4924-2C45-1D1E114B11AA">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-29 05:04:32 UTC</createdTime>
+<ownerDesignName>modeling</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>

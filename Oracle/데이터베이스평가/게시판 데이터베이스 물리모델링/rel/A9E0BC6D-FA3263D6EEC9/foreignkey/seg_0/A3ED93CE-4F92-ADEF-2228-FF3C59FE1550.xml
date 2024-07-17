@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A3ED93CE-4F92-ADEF-2228-FF3C59FE1550" containerWithKeyObject="DAA38364-782F-6E3A-81C8-4034A2D15E87" localFKIndex="81511CAB-A40F-0787-CF2B-9B56590A8745" name="reply_board_user_FK">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-05-02 05:44:43 UTC</createdTime>
+<ownerDesignName>게시판 데이터베이스 물리모델링</ownerDesignName>
+<referredTableLongName>board_user</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7D65683F-2251-CB67-3F12-84A2022EC220</referredTableID>
+<keyObject>385C9BF5-5D4B-2DE5-F339-EDB20E123EC8</keyObject>
+<referredKeyID>385C9BF5-5D4B-2DE5-F339-EDB20E123EC8</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

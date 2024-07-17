@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="655D325C-ABF3-B618-59DE-12BC839023CE" name="track">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 05:54:54 UTC</createdTime>
+<ownerDesignName>physical modeling</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="title" id="46801660-B09C-568B-6262-D704E75F45EC">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 05:55:23 UTC</createdTime>
+<ownerDesignName>physical modeling</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="running_time" id="D6119BF6-FD48-1ACB-F9EB-21C93EAC6C0E">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 05:55:23 UTC</createdTime>
+<ownerDesignName>physical modeling</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B4BDC4E9-C20E-83C1-9A3A-55EECCB1CB9A" name="track_PK">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 05:57:19 UTC</createdTime>
+<ownerDesignName>physical modeling</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="46801660-B09C-568B-6262-D704E75F45EC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

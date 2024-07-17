@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Book" id="71E2080C-2063-157B-D0AC-A4B939129C35" mainViewID="8C6B2FC0-0CE2-5C8C-3B0C-80AE4FF3B127">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-29 05:38:11 UTC</createdTime>
+<ownerDesignName>modeling</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>

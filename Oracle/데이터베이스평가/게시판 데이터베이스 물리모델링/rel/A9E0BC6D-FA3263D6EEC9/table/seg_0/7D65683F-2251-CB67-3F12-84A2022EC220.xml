@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7D65683F-2251-CB67-3F12-84A2022EC220" name="board_user">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-05-02 05:37:12 UTC</createdTime>
+<ownerDesignName>게시판 데이터베이스 물리모델링</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="D52EF1F6-9AA3-4B47-F465-018260F0F3A6">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-05-02 05:38:39 UTC</createdTime>
+<ownerDesignName>게시판 데이터베이스 물리모델링</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="360E2521-6BEA-9A09-5420-E1FECD6189CF">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-05-02 05:38:39 UTC</createdTime>
+<ownerDesignName>게시판 데이터베이스 물리모델링</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="password" id="37F86132-3722-2B6F-140B-4220FD578674">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-05-02 05:38:39 UTC</createdTime>
+<ownerDesignName>게시판 데이터베이스 물리모델링</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300</dataTypeSize>
+<ownDataTypeParameters>300,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="phone" id="2BC3802E-EB8C-BE5B-1A1D-D646E6FBA44F">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-05-02 05:38:39 UTC</createdTime>
+<ownerDesignName>게시판 데이터베이스 물리모델링</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="amail" id="0327113D-DA26-B03C-9092-15186362B7F7">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-05-02 05:38:39 UTC</createdTime>
+<ownerDesignName>게시판 데이터베이스 물리모델링</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="385C9BF5-5D4B-2DE5-F339-EDB20E123EC8" name="board_user_PK">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-05-02 05:38:39 UTC</createdTime>
+<ownerDesignName>게시판 데이터베이스 물리모델링</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D52EF1F6-9AA3-4B47-F465-018260F0F3A6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

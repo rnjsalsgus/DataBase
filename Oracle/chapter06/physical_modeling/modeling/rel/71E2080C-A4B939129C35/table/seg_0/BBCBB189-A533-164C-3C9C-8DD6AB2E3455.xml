@@ -1,0 +1,45 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BBCBB189-A533-164C-3C9C-8DD6AB2E3455" name="TABLE_3">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-29 05:38:39 UTC</createdTime>
+<ownerDesignName>modeling</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="booktype" id="3BE20C6A-FE54-C797-152B-F9ABA688B9E5">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-29 05:42:51 UTC</createdTime>
+<ownerDesignName>modeling</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="listprice" id="E13E8B9E-48BF-CA38-BBD8-03287EC47BEF">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-29 05:43:13 UTC</createdTime>
+<ownerDesignName>modeling</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4DE6F9C3-B1BF-4F2D-4FC5-B183C802550D" name="TABLE_3_PK">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-29 05:42:51 UTC</createdTime>
+<ownerDesignName>modeling</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3BE20C6A-FE54-C797-152B-F9ABA688B9E5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

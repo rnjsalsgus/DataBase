@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DAA38364-782F-6E3A-81C8-4034A2D15E87" name="reply">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-05-02 05:40:51 UTC</createdTime>
+<ownerDesignName>게시판 데이터베이스 물리모델링</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="30A8F10A-69DE-89A2-8F06-FDBE96BEF4A5">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-05-02 05:42:25 UTC</createdTime>
+<ownerDesignName>게시판 데이터베이스 물리모델링</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="re_content" id="ACBF15C6-4CEF-8D85-3D63-D088EE92656D">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-05-02 05:42:25 UTC</createdTime>
+<ownerDesignName>게시판 데이터베이스 물리모델링</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300</dataTypeSize>
+<ownDataTypeParameters>300,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="create_date" id="7D120F6D-BF7F-8211-F69E-A4F0215DCD96">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-05-02 05:42:25 UTC</createdTime>
+<ownerDesignName>게시판 데이터베이스 물리모델링</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="board_user_id" id="5F582723-CA89-3F0D-FB13-48DA80DD2DFE">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-05-02 05:44:43 UTC</createdTime>
+<ownerDesignName>게시판 데이터베이스 물리모델링</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A3ED93CE-4F92-ADEF-2228-FF3C59FE1550" referredColumn="D52EF1F6-9AA3-4B47-F465-018260F0F3A6"/>
+</associations>
+</Column>
+<Column name="board_board_id" id="8C29E777-6AD2-BDE5-AE1A-60F35917F875">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-05-02 05:44:47 UTC</createdTime>
+<ownerDesignName>게시판 데이터베이스 물리모델링</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1DA8B3DE-AF5F-99B2-2AB4-930A19A43A2D" referredColumn="CD0C0787-3B5E-6111-D527-E171E9C3692A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="16C4A162-AFAE-1AED-0619-374E9A5679DE" name="reply_PK">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-05-02 05:42:25 UTC</createdTime>
+<ownerDesignName>게시판 데이터베이스 물리모델링</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="30A8F10A-69DE-89A2-8F06-FDBE96BEF4A5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="81511CAB-A40F-0787-CF2B-9B56590A8745" name="reply_board_user_FK">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-05-02 05:44:43 UTC</createdTime>
+<ownerDesignName>게시판 데이터베이스 물리모델링</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5F582723-CA89-3F0D-FB13-48DA80DD2DFE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B3B7032D-19B8-97B9-E8DA-DE0B4766E72A" name="reply_board_FK">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-05-02 05:44:47 UTC</createdTime>
+<ownerDesignName>게시판 데이터베이스 물리모델링</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8C29E777-6AD2-BDE5-AE1A-60F35917F875"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

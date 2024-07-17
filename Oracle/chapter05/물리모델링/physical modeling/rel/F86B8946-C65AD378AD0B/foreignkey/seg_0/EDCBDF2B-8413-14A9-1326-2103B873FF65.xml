@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="EDCBDF2B-8413-14A9-1326-2103B873FF65" containerWithKeyObject="443241D0-3F21-380C-4A56-C32780C36953" localFKIndex="54057A14-4DA1-DF7F-26FB-0C222D82E7C1" name="pidv2">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 05:22:10 UTC</createdTime>
+<ownerDesignName>physical modeling</ownerDesignName>
+<referredTableLongName>project</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>CCA63478-4065-DF8A-DB43-B9DFA6C8FB11</referredTableID>
+<keyObject>9E8D015D-4A69-4589-2261-E3F9ED9FA579</keyObject>
+<referredKeyID>9E8D015D-4A69-4589-2261-E3F9ED9FA579</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>pid</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

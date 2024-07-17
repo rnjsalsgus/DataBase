@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="05063E7A-4596-5DB3-CC01-74BC725480B5" name="customer">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 05:40:44 UTC</createdTime>
+<ownerDesignName>physical modeling</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="name" id="37151E1E-B060-A456-4326-9C7CE50F9455">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 05:41:25 UTC</createdTime>
+<ownerDesignName>physical modeling</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="address" id="3EC3F7AC-A4A3-29A1-2C66-9BFD0C3E3460">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 05:41:25 UTC</createdTime>
+<ownerDesignName>physical modeling</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="phone" id="8EDE736A-333A-52E2-2B27-1EB8DB3277B0">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 05:41:25 UTC</createdTime>
+<ownerDesignName>physical modeling</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="964C09B4-4E8D-8F5F-0203-BF09DC8800A8" name="customer_PK">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 05:41:25 UTC</createdTime>
+<ownerDesignName>physical modeling</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="37151E1E-B060-A456-4326-9C7CE50F9455"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

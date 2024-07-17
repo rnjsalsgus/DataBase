@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A3BFD385-D94A-C4DD-75F6-B6D31F6508CB" name="board">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-05-02 05:38:52 UTC</createdTime>
+<ownerDesignName>게시판 데이터베이스 물리모델링</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="board_id" id="CD0C0787-3B5E-6111-D527-E171E9C3692A">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-05-02 05:40:33 UTC</createdTime>
+<ownerDesignName>게시판 데이터베이스 물리모델링</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="title" id="5E1AB14B-7C7D-FE97-A3B3-83EAC8EA53DE">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-05-02 05:40:33 UTC</createdTime>
+<ownerDesignName>게시판 데이터베이스 물리모델링</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300</dataTypeSize>
+<ownDataTypeParameters>300,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="content" id="BC753E8F-899A-8958-172B-B7458AA40340">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-05-02 05:40:33 UTC</createdTime>
+<ownerDesignName>게시판 데이터베이스 물리모델링</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LogDes-1768A872-F385-FDBA-D95E-0CB63F5908E2@LOGDT10045</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="create_date" id="0D270F09-BFCC-2334-AE47-2E9A8594D2FA">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-05-02 05:40:33 UTC</createdTime>
+<ownerDesignName>게시판 데이터베이스 물리모델링</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="board_user_id" id="68BBA14A-CE60-AA3A-016B-6E89AF10FA48">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-05-02 05:43:59 UTC</createdTime>
+<ownerDesignName>게시판 데이터베이스 물리모델링</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7D9FFB45-F26E-1142-5E90-9A5542CC5280" referredColumn="D52EF1F6-9AA3-4B47-F465-018260F0F3A6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5931BA6B-4E50-10DC-B66A-976F35FF832D" name="board_PK">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-05-02 05:40:33 UTC</createdTime>
+<ownerDesignName>게시판 데이터베이스 물리모델링</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CD0C0787-3B5E-6111-D527-E171E9C3692A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="847114AE-57DB-A3F1-8B1E-723380187D1B" name="board_board_user_FK">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-05-02 05:43:59 UTC</createdTime>
+<ownerDesignName>게시판 데이터베이스 물리모델링</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="68BBA14A-CE60-AA3A-016B-6E89AF10FA48"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1862738D-014A-8483-FE5D-51B270A68AEF" name="owner">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-29 03:22:07 UTC</createdTime>
+<ownerDesignName>modeling</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="o_id" id="DD74F425-9B1C-711E-3160-B5C89044A755">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-29 03:22:31 UTC</createdTime>
+<ownerDesignName>modeling</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="AF9ADBEC-5A62-9835-017B-C312958C08FD">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-29 03:22:55 UTC</createdTime>
+<ownerDesignName>modeling</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="phonenumber" id="55F80922-E3A4-B9F6-C9F1-08EF5DE2165F">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-29 03:23:39 UTC</createdTime>
+<ownerDesignName>modeling</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E040EC96-62E6-428F-E40A-DF10A28EB676" name="owner_PK">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-29 03:22:55 UTC</createdTime>
+<ownerDesignName>modeling</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DD74F425-9B1C-711E-3160-B5C89044A755"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

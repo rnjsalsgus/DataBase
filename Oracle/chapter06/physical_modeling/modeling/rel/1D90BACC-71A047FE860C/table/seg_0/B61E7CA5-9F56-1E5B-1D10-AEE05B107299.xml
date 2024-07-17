@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B61E7CA5-9F56-1E5B-1D10-AEE05B107299" name="TABLE_5">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-29 05:34:32 UTC</createdTime>
+<ownerDesignName>modeling</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TABLE_3_shipname" id="33CAC013-CE32-4E93-429A-3807DB16E124">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-29 05:36:36 UTC</createdTime>
+<ownerDesignName>modeling</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="62A90A41-1556-A1E7-762D-B640A0A91346" referredColumn="FE6770F8-3E29-2916-BF5B-AB52A84D6492"/>
+</associations>
+</Column>
+<Column name="TABLE_4_voyagelID" id="F5E27564-2407-F116-B007-C764A54590EC">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-29 05:36:46 UTC</createdTime>
+<ownerDesignName>modeling</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5EA5BC1C-502F-D863-D7A8-255CC447B288" referredColumn="409F7CC1-D3A2-D5BB-1CFA-992C6D129C6B"/>
+</associations>
+</Column>
+<Column name="date" id="C2866912-4496-F820-47A0-59D810548EF8">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-29 05:37:45 UTC</createdTime>
+<ownerDesignName>modeling</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="port" id="AF2E6040-92E9-9CC7-15F5-8F58EA29929C">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-29 05:37:45 UTC</createdTime>
+<ownerDesignName>modeling</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F9822EDC-8FF4-432A-2450-F71750D2C547" name="TABLE_5_TABLE_3_FK">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-29 05:36:36 UTC</createdTime>
+<ownerDesignName>modeling</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="33CAC013-CE32-4E93-429A-3807DB16E124"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="972ADBCC-1E7C-A165-92C0-471C7E860BBA" name="TABLE_5_TABLE_4_FK">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-29 05:36:46 UTC</createdTime>
+<ownerDesignName>modeling</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F5E27564-2407-F116-B007-C764A54590EC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

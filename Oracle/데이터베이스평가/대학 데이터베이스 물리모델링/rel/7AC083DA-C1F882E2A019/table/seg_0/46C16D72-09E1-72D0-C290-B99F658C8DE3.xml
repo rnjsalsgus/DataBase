@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="46C16D72-09E1-72D0-C290-B99F658C8DE3" name="student">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-05-02 00:35:04 UTC</createdTime>
+<ownerDesignName>대학 데이터베이스 물리모델링</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="stu_id" id="52D3552B-F720-5F30-569E-477097F8ABAA">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-05-02 00:36:36 UTC</createdTime>
+<ownerDesignName>대학 데이터베이스 물리모델링</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="stu_name" id="9A172058-28B7-A213-D3F3-36566E55A9BA">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-05-02 00:36:36 UTC</createdTime>
+<ownerDesignName>대학 데이터베이스 물리모델링</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="stu_add" id="A17A560E-3FC3-9FBF-5C35-C8B97E36705E">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-05-02 00:36:36 UTC</createdTime>
+<ownerDesignName>대학 데이터베이스 물리모델링</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="stu_phone" id="ABE08B30-F740-344A-AEF9-1EEB03925306">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-05-02 00:36:36 UTC</createdTime>
+<ownerDesignName>대학 데이터베이스 물리모델링</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="grade" id="ED222408-0B46-8A57-51C2-A4672DA8F023">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-05-02 00:36:36 UTC</createdTime>
+<ownerDesignName>대학 데이터베이스 물리모델링</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="stu_email" id="A6A971FC-FC0B-5BFE-E37C-B9B5FB4F037A">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-05-02 00:36:36 UTC</createdTime>
+<ownerDesignName>대학 데이터베이스 물리모델링</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="major_major_id" id="FEC91BEB-2A00-D9FD-B3A6-43BE1AD7AB64">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-05-02 00:40:10 UTC</createdTime>
+<ownerDesignName>대학 데이터베이스 물리모델링</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8586731F-7486-837A-A4EF-10BC1FABCF1E" referredColumn="3A56B75F-7A2F-F31D-1A8A-F9ABE30E23EF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A45C7163-8949-DEDF-7953-C46DEE86A5EC" name="student_PK">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-05-02 00:36:36 UTC</createdTime>
+<ownerDesignName>대학 데이터베이스 물리모델링</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="52D3552B-F720-5F30-569E-477097F8ABAA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CCE64312-FC0E-163B-4AB9-F49EB45D5813" name="student_major_FK">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-05-02 00:40:10 UTC</createdTime>
+<ownerDesignName>대학 데이터베이스 물리모델링</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FEC91BEB-2A00-D9FD-B3A6-43BE1AD7AB64"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

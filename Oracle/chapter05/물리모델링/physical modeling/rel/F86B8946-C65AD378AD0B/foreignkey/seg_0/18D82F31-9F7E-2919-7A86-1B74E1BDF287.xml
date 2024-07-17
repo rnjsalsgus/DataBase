@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="18D82F31-9F7E-2919-7A86-1B74E1BDF287" containerWithKeyObject="2AD127CF-98D7-CA6B-44D2-50050C07AF57" localFKIndex="A9DE5C51-7D9A-BA59-EC66-2D4ACF8A245A" name="professorssn">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 05:19:06 UTC</createdTime>
+<ownerDesignName>physical modeling</ownerDesignName>
+<referredTableLongName>professor</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B8ABE6DF-3396-6B16-15E4-4864F184B83E</referredTableID>
+<keyObject>7CD6D938-C680-950E-28E8-FAEA5814D8C1</keyObject>
+<referredKeyID>7CD6D938-C680-950E-28E8-FAEA5814D8C1</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ssn</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

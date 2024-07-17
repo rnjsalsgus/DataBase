@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F51A0F2B-FACB-56D9-A110-6B92CCDC210F" name="TABLE_6">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-29 05:58:36 UTC</createdTime>
+<ownerDesignName>modeling</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TABLE_4_partnumber" id="57063C55-E1D6-ECD3-F6D7-7D214A668084">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-29 05:59:19 UTC</createdTime>
+<ownerDesignName>modeling</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FF21317D-2718-615F-5A06-65B72FE7C3DD" referredColumn="6664ABC4-6F98-D878-AE49-5A87895191E4"/>
+</associations>
+</Column>
+<Column name="TABLE_5_supplier" id="DF4379B0-A6BD-8A37-9310-9A00FD4E863D">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-29 05:59:22 UTC</createdTime>
+<ownerDesignName>modeling</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2967B35B-7E99-C144-9C39-355ED230F60F" referredColumn="15C3DA35-B9A9-7363-8FE6-BA868D2EF5EB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="748E523A-3FFF-8396-1219-06282A27B186" name="TABLE_6_TABLE_4_FK">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-29 05:59:19 UTC</createdTime>
+<ownerDesignName>modeling</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="57063C55-E1D6-ECD3-F6D7-7D214A668084"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="006BA497-33C8-0229-1773-53C58BD303E6" name="TABLE_6_TABLE_5_FK">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-29 05:59:22 UTC</createdTime>
+<ownerDesignName>modeling</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DF4379B0-A6BD-8A37-9310-9A00FD4E863D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

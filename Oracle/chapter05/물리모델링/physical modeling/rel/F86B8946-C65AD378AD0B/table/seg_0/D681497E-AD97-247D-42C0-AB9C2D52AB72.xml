@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D681497E-AD97-247D-42C0-AB9C2D52AB72" name="work_in">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 05:10:54 UTC</createdTime>
+<ownerDesignName>physical modeling</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="professor_ssn" id="BA52F7F4-86F4-75F4-D47B-61A3A48D39CD">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 05:20:52 UTC</createdTime>
+<ownerDesignName>physical modeling</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9C317968-C432-DD17-4E90-939A89D0B032" referredColumn="5E1B552F-D866-78A6-3F43-4A3CBF7008B3"/>
+</associations>
+</Column>
+<Column name="project_pid" id="918B45BB-41D0-584F-62B1-24804FEEC36E">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 05:21:15 UTC</createdTime>
+<ownerDesignName>physical modeling</ownerDesignName>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FF8513EF-272A-2928-E5C2-CD9E8F173121" referredColumn="410F8D5D-AAAF-0056-9CC4-7989C78E7D30"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C6E8A937-55CB-D1A7-F84A-112A45206739" name="work_in_PK">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 05:11:09 UTC</createdTime>
+<ownerDesignName>physical modeling</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BA52F7F4-86F4-75F4-D47B-61A3A48D39CD"/>
+<colUsage columnID="918B45BB-41D0-584F-62B1-24804FEEC36E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="614970AD-D0CE-B6D4-A325-A34348F6A46E" name="professorssnv2">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 05:20:52 UTC</createdTime>
+<ownerDesignName>physical modeling</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BA52F7F4-86F4-75F4-D47B-61A3A48D39CD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2095CBE9-7BEE-7EC0-07FA-BD795F5888FB" name="pid">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 05:21:15 UTC</createdTime>
+<ownerDesignName>physical modeling</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="918B45BB-41D0-584F-62B1-24804FEEC36E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FEEB9171-14F1-FFC0-7D7D-0F9348678A5A" name="ownership">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-29 03:25:07 UTC</createdTime>
+<ownerDesignName>modeling</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="property_pid" id="CD80E653-8F93-0E3D-87AB-47BED55C9453">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-29 03:26:31 UTC</createdTime>
+<ownerDesignName>modeling</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D66D89F4-8A6F-97D5-F4EC-6767484B70DA" referredColumn="E38576F2-5ED1-EFFC-2ACE-61FBCF06C579"/>
+</associations>
+</Column>
+<Column name="owner_o_id" id="F8FB5EE3-0474-A1B0-4AF1-B415A882A54D">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-29 03:28:00 UTC</createdTime>
+<ownerDesignName>modeling</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CD7D0D09-8261-2F3A-8245-F6019C72C804" referredColumn="DD74F425-9B1C-711E-3160-B5C89044A755"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1320A28A-F2C0-9828-940D-446967AD319F" name="ownership_property_FK">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-29 03:26:31 UTC</createdTime>
+<ownerDesignName>modeling</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CD80E653-8F93-0E3D-87AB-47BED55C9453"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2D738AF2-8760-7839-BB79-70ECCE63B81F" name="ownership_owner_FK">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-29 03:28:00 UTC</createdTime>
+<ownerDesignName>modeling</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F8FB5EE3-0474-A1B0-4AF1-B415A882A54D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

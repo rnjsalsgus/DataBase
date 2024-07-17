@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="545BD17E-0984-8530-693A-110A3B6C7BE3" containerWithKeyObject="BE79E24D-2F7C-9104-E0C6-A256A38E28B8" localFKIndex="639F3013-9E4C-E6A9-E1DF-7201AF653829" name="도서_출판사_FK">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 02:35:23 UTC</createdTime>
+<ownerDesignName>physical modeling</ownerDesignName>
+<referredTableLongName>출판사</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>AD6D9C8B-548F-1065-715C-128365DA21F9</referredTableID>
+<keyObject>E9FB147C-632F-2D02-59C2-B520D5181CEE</keyObject>
+<referredKeyID>E9FB147C-632F-2D02-59C2-B520D5181CEE</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>출판사이름</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

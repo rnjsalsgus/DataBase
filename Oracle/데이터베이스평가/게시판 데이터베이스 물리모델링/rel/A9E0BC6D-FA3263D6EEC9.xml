@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="게시판 데이터베이스" id="A9E0BC6D-0E25-7E98-9E98-FA3263D6EEC9" mainViewID="3FA1BED4-5ECF-29C8-A374-9A3F0176579C">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-05-02 05:36:31 UTC</createdTime>
+<ownerDesignName>게시판 데이터베이스 물리모델링</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>

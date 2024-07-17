@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0FD8752D-31E0-55A8-CE1E-3C4CF898932D" name="TABLE_3">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-29 05:34:28 UTC</createdTime>
+<ownerDesignName>modeling</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="shipname" id="FE6770F8-3E29-2916-BF5B-AB52A84D6492">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-29 05:35:33 UTC</createdTime>
+<ownerDesignName>modeling</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="shiptype" id="309AB77B-B5C2-6F33-CD6D-48800331AE46">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-29 05:35:45 UTC</createdTime>
+<ownerDesignName>modeling</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E5BA02C0-CBF2-C5F4-C2A7-64138902F543" name="TABLE_3_PK">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-29 05:35:33 UTC</createdTime>
+<ownerDesignName>modeling</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FE6770F8-3E29-2916-BF5B-AB52A84D6492"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CCA63478-4065-DF8A-DB43-B9DFA6C8FB11" name="project">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 05:08:13 UTC</createdTime>
+<ownerDesignName>physical modeling</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="pid" id="410F8D5D-AAAF-0056-9CC4-7989C78E7D30">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 05:08:52 UTC</createdTime>
+<ownerDesignName>physical modeling</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sponsor" id="C705B3E1-4A5D-7AE5-8E4B-70F07403F1B5">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 05:08:52 UTC</createdTime>
+<ownerDesignName>physical modeling</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="start_date" id="99AA2CE6-E77E-FFD8-FFFC-C687A58FB96E">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 05:08:52 UTC</createdTime>
+<ownerDesignName>physical modeling</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="end_date" id="ECE9B997-94CA-3659-2120-FF5DC62143E7">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 05:08:52 UTC</createdTime>
+<ownerDesignName>physical modeling</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="budget" id="CCFB7744-4588-FCA0-C647-CE00BD4D9E20">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 05:08:52 UTC</createdTime>
+<ownerDesignName>physical modeling</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="professor_ssn" id="788DC1F3-3347-D1E7-6721-9C3AB47F20C9">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 05:15:29 UTC</createdTime>
+<ownerDesignName>physical modeling</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ACD0D3C6-CA9E-16FA-03E6-90DF999FCF52" referredColumn="5E1B552F-D866-78A6-3F43-4A3CBF7008B3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9E8D015D-4A69-4589-2261-E3F9ED9FA579" name="project_PK">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 05:09:58 UTC</createdTime>
+<ownerDesignName>physical modeling</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="410F8D5D-AAAF-0056-9CC4-7989C78E7D30"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="439A6402-45EE-BE19-FDBE-13E57E3557A2" name="managessn">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 05:15:29 UTC</createdTime>
+<ownerDesignName>physical modeling</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="788DC1F3-3347-D1E7-6721-9C3AB47F20C9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

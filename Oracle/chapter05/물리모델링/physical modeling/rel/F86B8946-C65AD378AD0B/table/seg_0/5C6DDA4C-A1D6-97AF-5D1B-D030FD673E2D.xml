@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5C6DDA4C-A1D6-97AF-5D1B-D030FD673E2D" name="Department">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 05:07:05 UTC</createdTime>
+<ownerDesignName>physical modeling</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="dno" id="29D2EF3A-7537-3370-C947-87C5951F3C10">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 05:07:28 UTC</createdTime>
+<ownerDesignName>physical modeling</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dname" id="AE26BD48-4E59-EAC8-8365-8AE6791699AC">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 05:07:28 UTC</createdTime>
+<ownerDesignName>physical modeling</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="office" id="C971B167-84DC-29EE-69B4-4E893C8AE53F">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 05:07:28 UTC</createdTime>
+<ownerDesignName>physical modeling</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="professor_ssn" id="3ACBCEF7-7562-FE4F-4573-5ED64F4045D9">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 05:13:17 UTC</createdTime>
+<ownerDesignName>physical modeling</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5489F569-F18E-7110-09CE-C4166B72F878" referredColumn="5E1B552F-D866-78A6-3F43-4A3CBF7008B3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DF793BE3-9372-4171-A813-5468F63148BC" name="Department_PK">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 05:09:29 UTC</createdTime>
+<ownerDesignName>physical modeling</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="29D2EF3A-7537-3370-C947-87C5951F3C10"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C465E246-0E99-ED79-5DF6-85C3ED6DF6CB" name="runprofessorssn">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 05:13:17 UTC</createdTime>
+<ownerDesignName>physical modeling</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3ACBCEF7-7562-FE4F-4573-5ED64F4045D9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

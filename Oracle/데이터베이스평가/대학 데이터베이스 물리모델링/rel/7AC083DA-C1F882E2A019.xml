@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="대학 데이터베이스" id="7AC083DA-9C70-E1B7-9D1B-C1F882E2A019" mainViewID="401EDB00-76CC-6772-482B-38F02033234A">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-05-02 00:32:25 UTC</createdTime>
+<ownerDesignName>대학 데이터베이스 물리모델링</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>

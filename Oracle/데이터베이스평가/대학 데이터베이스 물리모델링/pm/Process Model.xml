@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="7DA57F9B-DB94-E789-211E-D950D8E9BD5E">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-05-02 00:32:15 UTC</createdTime>
+<ownerDesignName>대학 데이터베이스 물리모델링</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D58572CC-ED58-9DBB-2F1D-E8487F947291" name="neworder">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 03:22:40 UTC</createdTime>
+<ownerDesignName>physical modeling</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="orderid" id="0553A2D3-78C4-241E-8515-E7573FB7CFAF">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 03:23:06 UTC</createdTime>
+<ownerDesignName>physical modeling</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="orderdate" id="22261699-8954-5FAA-3A89-C41D63D4981B">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 03:23:06 UTC</createdTime>
+<ownerDesignName>physical modeling</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="saleprice" id="5E230250-20A6-F6BF-BFA6-A338AA04AE04">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 03:23:06 UTC</createdTime>
+<ownerDesignName>physical modeling</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="newcustomer_custid" id="529ECCEE-2847-5C9B-A6D2-7C9678D45497">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 03:25:27 UTC</createdTime>
+<ownerDesignName>physical modeling</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6859EB15-8680-2245-3BBA-E2AD3D653E1E" referredColumn="23D801CF-A4A3-54C3-B98A-6D7216D2644E"/>
+</associations>
+</Column>
+<Column name="newbook_bookid" id="8CDC3BB9-A36F-1B1B-C64A-ED929B7EBE3B">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 03:25:43 UTC</createdTime>
+<ownerDesignName>physical modeling</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="99224FBC-1582-C03A-7B0B-BF7EAF56DCD1" referredColumn="B7EEF84A-6441-AA36-8500-5233D31B2E01"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9DCBE567-B3EC-79CB-5033-FB511E293B17" name="neworder_PK">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 03:23:06 UTC</createdTime>
+<ownerDesignName>physical modeling</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0553A2D3-78C4-241E-8515-E7573FB7CFAF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2BDD8F86-0340-E288-1CAE-5354DE40407B" name="neworder_newcustomer_FK">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 03:25:27 UTC</createdTime>
+<ownerDesignName>physical modeling</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="529ECCEE-2847-5C9B-A6D2-7C9678D45497"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="05E7B1A8-B8FE-F4D9-92EC-C227C25667FA" name="neworder_newbook_FK">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 03:25:43 UTC</createdTime>
+<ownerDesignName>physical modeling</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8CDC3BB9-A36F-1B1B-C64A-ED929B7EBE3B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="6859EB15-8680-2245-3BBA-E2AD3D653E1E" containerWithKeyObject="D58572CC-ED58-9DBB-2F1D-E8487F947291" localFKIndex="2BDD8F86-0340-E288-1CAE-5354DE40407B" name="neworder_newcustomer_FK">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 03:25:27 UTC</createdTime>
+<ownerDesignName>physical modeling</ownerDesignName>
+<referredTableLongName>newcustomer</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C0CF52CF-8CBC-C0C0-9D75-738467738A60</referredTableID>
+<keyObject>18528D61-A819-60C5-BE7A-C04A0E6D2B4D</keyObject>
+<referredKeyID>18528D61-A819-60C5-BE7A-C04A0E6D2B4D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>custid</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

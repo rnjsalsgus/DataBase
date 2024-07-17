@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="31A06D84-91F8-0CCB-B2EC-31355780A8FF" name="주문">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 02:42:28 UTC</createdTime>
+<ownerDesignName>physical modeling</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="주문번호" id="48AFD790-7EB1-D122-6655-FB17762B3E61">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 02:44:25 UTC</createdTime>
+<ownerDesignName>physical modeling</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="주문일자" id="17EC70EF-FF00-97E2-F0D7-4FCBAFCC3229">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 02:43:03 UTC</createdTime>
+<ownerDesignName>physical modeling</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="주문금액" id="7D221E64-80C0-FDE5-83F9-ED78C10B1F1A">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 02:43:03 UTC</createdTime>
+<ownerDesignName>physical modeling</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="도서_도서번호" id="4530DA46-7685-1351-70F1-A80BF22509EE">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 02:43:19 UTC</createdTime>
+<ownerDesignName>physical modeling</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="59F90236-A44D-24D2-5EE5-A597F2405709" referredColumn="9FAB9D22-5461-F968-4D55-690F349FADCD"/>
+</associations>
+</Column>
+<Column name="고객_고객번호" id="D6DE244A-9B67-4352-4772-DD838A3817DE">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 02:43:31 UTC</createdTime>
+<ownerDesignName>physical modeling</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="501A8355-475C-8974-14AD-A8DB7B120CB4" referredColumn="5B955119-0F5E-8C1D-27B4-A158504A31F8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="99D2A9C2-4201-A150-EE0C-1062196F8E8E" name="주문_PK">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 02:44:25 UTC</createdTime>
+<ownerDesignName>physical modeling</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="48AFD790-7EB1-D122-6655-FB17762B3E61"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DBFF285A-C925-E5E0-EC43-F36F58FDE9BB" name="주문_도서_FK">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 02:43:19 UTC</createdTime>
+<ownerDesignName>physical modeling</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4530DA46-7685-1351-70F1-A80BF22509EE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0F829E35-CE85-E2BD-C665-7A743F1CB5DA" name="주문_고객_FK">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 02:43:31 UTC</createdTime>
+<ownerDesignName>physical modeling</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D6DE244A-9B67-4352-4772-DD838A3817DE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

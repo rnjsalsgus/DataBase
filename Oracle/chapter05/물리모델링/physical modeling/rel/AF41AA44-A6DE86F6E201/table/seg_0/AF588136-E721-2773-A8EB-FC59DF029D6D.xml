@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AF588136-E721-2773-A8EB-FC59DF029D6D" name="play">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 05:30:14 UTC</createdTime>
+<ownerDesignName>physical modeling</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="part_id" id="3AB00678-0F05-7213-5645-9FCD480C1D5A">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 05:32:24 UTC</createdTime>
+<ownerDesignName>physical modeling</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F8FC6578-62E7-4FCA-8F1D-D1F8924675B4" referredColumn="F45F5DF4-625A-7D82-C343-893D662BECB0"/>
+</associations>
+</Column>
+<Column name="car_brand" id="69B7D1E6-61DE-35C5-F999-35734BB0B2A0">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 05:38:23 UTC</createdTime>
+<ownerDesignName>physical modeling</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="36DA3FE1-8BEA-90F3-562A-3EF36B5BD93F" referredColumn="55DD0803-5A34-0631-5525-A59D174FDB19"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E676B0C4-6ADE-7BD4-A98B-531D50062C1C" name="play_part_FK">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 05:32:24 UTC</createdTime>
+<ownerDesignName>physical modeling</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3AB00678-0F05-7213-5645-9FCD480C1D5A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3D2B8AD9-6775-C42D-271E-5E672B83D2DB" name="play_car_FK">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 05:38:23 UTC</createdTime>
+<ownerDesignName>physical modeling</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="69B7D1E6-61DE-35C5-F999-35734BB0B2A0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

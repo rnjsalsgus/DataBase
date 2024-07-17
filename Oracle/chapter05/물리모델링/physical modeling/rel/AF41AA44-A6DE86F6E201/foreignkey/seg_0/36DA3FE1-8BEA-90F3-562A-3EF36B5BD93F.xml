@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="36DA3FE1-8BEA-90F3-562A-3EF36B5BD93F" containerWithKeyObject="AF588136-E721-2773-A8EB-FC59DF029D6D" localFKIndex="3D2B8AD9-6775-C42D-271E-5E672B83D2DB" name="play_car_FK">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 05:38:23 UTC</createdTime>
+<ownerDesignName>physical modeling</ownerDesignName>
+<referredTableLongName>car</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>44239CAC-A76E-C1BD-E803-AC284A8BCB50</referredTableID>
+<keyObject>D765613A-250F-A23F-1714-17FD153A82E5</keyObject>
+<referredKeyID>D765613A-250F-A23F-1714-17FD153A82E5</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>brand</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

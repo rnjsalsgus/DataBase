@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="부품-물리모델링" id="AF41AA44-5EDD-8E2A-BE16-A6DE86F6E201" mainViewID="BBD6F2C0-1413-20E0-3A9B-1B73C15B16A5">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 05:27:02 UTC</createdTime>
+<ownerDesignName>physical modeling</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>
