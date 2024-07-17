@@ -1,0 +1,92 @@
+데이터 - 저장되는 값
+테이블(Table) - 데이터를 체계화하여 행과 열의 형태로 구성된 것
+칼럼(Column, 열, field) - 해당 데이터가 어떤 의미인지 표현한 것
+로우(Row 레코드record, 터플tuple, 행) -  테이블에 저장한 하나의 행의 정보
+키(key) - 레코드를 구분할 수 있는 칼럼의 값
+-> 기본키(pk-primary key), 외래키(fk-foreign key)
+
+DDL(데이터 정의어)
+-Data Definition Language
+테이블 구조를 정의하는데 사용되는 명령어
+
+INT - 정수형 데이터
+-TinyINT : 1Byte(-128~127)
+-SmallINT : 2Byte(-3만~3만)
+-MediumINT : 3Byte(-800만~800만)
+-INT : 4Byte(-21억~21억)
+-BIGINT : 8Byte(-2^63~2^23-1)
+VARCHAR - 문자형 데이터
+DATETIME - 날짜 및 시간 데이터
+TIMESTAMP - 날짜 및 시간 데이터
+
+auto_increment - 정수형에만 사용가능
+	        - 숫자가 중복되지 않도록 자동으로 증가하도록 설정
+not null - null값을 허용하지 않음
+           - null != " " (null과 empty는 다른 개념)
+null - null값을 허용
+
+decs- describe 테이블의 구조를 보여준다.
+
+unique - 유일한 값(중복되지 않는다.)
+
+primary key의 속성 - not null, unique의 속성을 가지고 있다.
+
+default - null일 경우에 기본값을 대입
+
+테이블 생성 명령어
+create table 테이블명(
+  칼럼명 타입 속성,
+  칼럼명 타입 속성,
+  칼럼명 타입 속성
+);
+
+테이블에 데이터 삽입 명령어
+- insert into 테이블명(칼럼명)
+  values(값);
+
+테이블 삭제 명령어
+drop table 테이블명;
+
+칼럼 추가하는 명령어
+alter table 테이블명
+add 칼럼명 데이터타입;
+
+칼럼 수정 명령어
+alter table 테이블명
+change 칼럼명 데이터타입;
+
+칼럼 제약조건(primary key 등...) 변경 명령어
+alter table 테이블명
+add constraint 키이름 조건(칼럼명)
+
+actor
+actor_id int auto_increment pk,
+first_name varchar(30) not null,
+last_name varchar(45) not null,
+last_update timestamp default now();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
